@@ -1,0 +1,31 @@
+POST Product: Use a POST request to http://127.0.0.1:8000/products/ to post a products.
+GET Products: Use a GET request to http://127.0.0.1:8000/products/ to retrieve a list of products.
+GET Product by ID: Use a GET request to http://127.0.0.1:8000/products/{id} to retrieve a specific product.
+Update Product: Use a PUT request to http://127.0.0.1:8000/products/{id} with the updated product data in the body.
+Delete Product: Use a DELETE request to http://127.0.0.1:8000/products/{id} to delete a specific product.
+
+POST  supplier: Use a POST request to http://127.0.0.1:8000/suppliers/ to post a  supplier.
+GET  supplier: Use a GET request to http://127.0.0.1:8000/suppliers/ to retrieve a list of  supplier.
+GET supplier by ID: Use a GET request to http://127.0.0.1:8000/suppliers/{id} to retrieve a specific supplier.
+Update supplier: Use a PUT request to http://127.0.0.1:8000/suppliers/{id} with the updated supplier data in the body.
+Delete supplier: Use a DELETE request to http://127.0.0.1:8000/suppliers/{id} to delete a specific supplier.
+
+POST inventory: Use a POST request to http://127.0.0.1:8000/inventory/ to post a inventory.
+GET inventory: Use a GET request to http://127.0.0.1:8000/inventory/ to retrieve a list of invntorys.
+GET inventory by ID: Use a GET request to http://127.0.0.1:8000/inventory/{id} to retrieve a specific inventory.
+Update inventory: Use a PUT request to http://127.0.0.1:8000/inventory/{id} with the updated inventory data in the body.
+Delete inventory: Use a DELETE request to http://127.0.0.1:8000/inventory/{id} to delete a specific inventory.
+
+Create user: use the POST request to http://127.0.0.1:8000/auth/register/ with the credientials.
+Headers: key=content-type value=application/json
+{
+    "username": "testuser",
+    "password": "testpassword"
+}
+
+Login user: use the POST request to http://127.0.0.1:8000/auth/token/ and obtain the token and use it to use the requests.
+{
+    "access_token": "your_jwt_token",
+    "token_type": "bearer"
+}
+
