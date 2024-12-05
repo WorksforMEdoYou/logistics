@@ -1,0 +1,53 @@
+SETUP PROJECT
+
+1. create the virtual env and activate
+2. install the requirements.txt by using pip install -r requirements.txt
+3. run the migrations
+4. run the server
+
+API
+
+Users
+
+127.0.0.1:8000/api/users/register -> signup with username, email, password 
+127.0.0.1:8000/api/users/login -> login with email, and password obtain the jwt access token and refresh token
+
+subscribers
+
+127.0.0.1:8000/api/subscribers -> add access token and make the requst, GET 
+127.0.0.1:8000/api/subscribers/pk/ -> add access token and make the requst, GET individual
+127.0.0.1:8000/api/subscribers -> add access token and make the requst, POST
+127.0.0.1:8000/api/subscribers/pk/ -> add access token and make the requst, PUT
+127.0.0.1:8000/api/subscribers/pk/ -> add access token and make the requst, DELETE
+
+courses
+
+127.0.0.1:8000/api/course -> add access token and make the requst, GET 
+127.0.0.1:8000/api/course/pk/ -> add access token and make the requst, GET individual
+127.0.0.1:8000/api/course -> add access token and make the requst, POST
+127.0.0.1:8000/api/course/pk/ -> add access token and make the requst, PUT
+127.0.0.1:8000/api/course/pk/ -> add access token and make the requst, DELETE
+
+appointment
+
+127.0.0.1:8000/api/appointment -> add access token and make the requst, GET 
+127.0.0.1:8000/api/appointment/pk/ -> add access token and make the requst, GET individual
+127.0.0.1:8000/api/appointment -> add access token and make the requst, POST
+127.0.0.1:8000/api/appointment/pk/ -> add access token and make the requst, PUT
+127.0.0.1:8000/api/appointment/pk/ -> add access token and make the requst, DELETE
+
+evaluation
+
+127.0.0.1:8000/api/evaluation -> add access token and make the requst, GET 
+127.0.0.1:8000/api/evaluation/pk/ -> add access token and make the requst, GET individual
+127.0.0.1:8000/api/evaluation -> add access token and make the requst, POST
+127.0.0.1:8000/api/evaluation/pk/ -> add access token and make the requst, PUT
+127.0.0.1:8000/api/evaluation/pk/ -> add access token and make the requst, DELETE
+
+assessment
+
+127.0.0.1:8000/api/assessment -> add access token and make the requst, GET 
+127.0.0.1:8000/api/assessment/pk/ -> add access token and make the requst, GET individual
+127.0.0.1:8000/api/assessment -> add access token and make the requst, POST
+127.0.0.1:8000/api/assessment/pk/ -> add access token and make the requst, PUT
+127.0.0.1:8000/api/assessment/pk/ -> add access token and make the requst, DELETE
